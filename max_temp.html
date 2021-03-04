@@ -1,0 +1,108 @@
+<!-- Visualization Page 1 (Max Temperature)-->
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!--Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Latitude vs Max Temperature</title>
+  </head>
+​
+  <body>
+    <!-- Navigation Menu -->
+	<div class="navigation">
+	  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Lattitude</a>
+        <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+​
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humidity.html">Humidity</a>
+                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="comparisons.html">Comparison</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+<br>
+<br>
+<!-- Create overall grid -->
+<div class="container">
+  <section class="row">
+        <div class="col-lg-7 col-md-12">
+          <!-- Left Content Box -->
+          <div class="description-content">
+            <h1 class="description-header">Max Temperature</h1>
+            <hr>
+            <img src="Resources/Assets/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temperature">
+            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0&deg Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-12">
+          <!-- Right Content Box (Visualitions) -->
+          <section id="imageNav-area">
+            <div class="imageNav-content">
+              <h2 class="imageNav-header">Visualizations</h2>
+              <hr />
+              <div class="container">
+                <div class="row">
+                <div class="col-6">
+                    <a href="max_temp.html">
+				      <img src="Resources/Assets/Images/latitude_vs_max_temp.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo">
+            </a>
+          </div>
+				  <div class="col-6">
+            <a href="humidity.html">
+              <img src="Resources/Assets/Images/latitude_vs_humidity.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="cloudiness.html">
+              <img src="Resources/Assets/Images/latitude_vs_cloudiness.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness" class="imageNav-photo">
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="wind_speed.html">
+              <img src="Resources/Assets/Images/latitude_vs_wind_speed.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed" class="imageNav-photo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</section>
+</div>
+
+<!-- Footer -->
+<div class="footer">&copy; Copyright 2021</div>
+</footer>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
