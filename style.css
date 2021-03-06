@@ -1,4 +1,9 @@
 body {
+    background-image: url("https://images.dailyhive.com/20180101155308/Screen-Shot-2018-01-01-at-3.50.46-PM.png");
+    height: 850px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #eee;
     color: #839496;
     font-family: sans-serif;
@@ -13,7 +18,7 @@ body {
   
   .navigation .navbar-brand{
       color: white; 
-      margin-left: 40px; 
+      margin-left: 70px; 
       padding: inherit; 
       font-weight: bold; 
       background-color: rgb(66, 121, 184);
